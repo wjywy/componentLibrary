@@ -30,7 +30,7 @@ program
     // 监听 --help 执行
     .on('--help', () => {
         // 新增说明信息
-        console.log(`\r\nRun ${chalk.cyan(`zr <command> --help`)} for detailed usage of given command\r\n`)
+        console.log(`\r\nRun ${chalk.cyan(`wy <command> --help`)} for detailed usage of given command\r\n`)
     })
 
 program

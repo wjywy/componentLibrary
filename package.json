@@ -1,18 +1,15 @@
 {
-  "name": "moudle-cli",
-  "version": "1.0.1",
+  "name": "wjy-component",
+  "version": "1.0.2",
   "description": "simple moudle-react cli",
   "main": "index.js",
   "bin": {
-    "zr": "./bin/cli.js"
+    "zr": "bin/cli.js"
   },
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1"
   },
-  "author": {
-    "name": "W-Running",
-    "email": "2934610933@qq.com"
-  },
+  "author": "W-Running <2934610933@qq.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.4.0",
@@ -24,5 +21,9 @@
     "git-clone": "^0.2.0",
     "inquirer": "^8.0.0",
     "ora": "^5.1.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
