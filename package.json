@@ -1,0 +1,28 @@
+{
+  "name": "moudle-cli",
+  "version": "1.0.1",
+  "description": "simple moudle-react cli",
+  "main": "index.js",
+  "bin": {
+    "zr": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": {
+    "name": "W-Running",
+    "email": "2934610933@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "git-clone": "^0.2.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.1.0"
+  }
+}
